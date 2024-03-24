@@ -231,15 +231,6 @@
     gap: 20px;
   }
 
-  .horizontal {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .horizontal .title {
-    max-width: min-content;
-  }
-
   .subtitle {
     margin-block-start: 0;
   }
@@ -331,20 +322,6 @@
 
   .textblock {
     max-inline-size: 491px;
-  }
-
-  .horizontal {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .horizontal .title {
-    min-width: 315px;
-  }
-
-  .horizontal .blocks {
-    display: flex;
-    flex-direction: row;
   }
 
   .text__block {
