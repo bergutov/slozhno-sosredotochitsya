@@ -27,6 +27,7 @@
   gap: 10px;
   color: var(--accent-color);
   font-size: 18px;
+  text-transform: uppercase;
 }
 
 .rec-decoration:after {
