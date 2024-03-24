@@ -109,6 +109,13 @@
   text-shadow: 4px 4px 0px var(--title-text-shadow-color);
 }
 
+.footer__logo {
+  color: var(--header-title-text-color);
+  font-size: var(--header-text-size);
+  line-height: 82.5%;
+  text-shadow: 4px 4px 0px var(--title-text-shadow-color);
+}
+
 .title-decor {
   height: max-content;
   color: var(--title-text-decor-color);
@@ -116,13 +123,6 @@
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--accent-color);
-}
-
-.footer__logo {
-  color: var(--header-title-text-color);
-  font-size: var(--header-text-size);
-  line-height: 82.5%;
-  text-shadow: 4px 4px 0px var(--title-text-shadow-color);
 }
 
 .main {
@@ -231,15 +231,6 @@
     gap: 20px;
   }
 
-  .horizontal {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .horizontal .title {
-    max-width: min-content;
-  }
-
   .subtitle {
     margin-block-start: 0;
   }
@@ -331,20 +322,6 @@
 
   .textblock {
     max-inline-size: 491px;
-  }
-
-  .horizontal {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .horizontal .title {
-    min-width: 315px;
-  }
-
-  .horizontal .blocks {
-    display: flex;
-    flex-direction: row;
   }
 
   .text__block {
