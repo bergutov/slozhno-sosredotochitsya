@@ -27,6 +27,7 @@
   gap: 10px;
   color: var(--accent-color);
   font-size: 18px;
+  text-transform: uppercase;
 }
 
 .rec-decoration:after {
@@ -102,6 +103,13 @@
 }
 
 .header__text {
+  color: var(--header-title-text-color);
+  font-size: var(--header-text-size);
+  line-height: 82.5%;
+  text-shadow: 4px 4px 0px var(--title-text-shadow-color);
+}
+
+.footer__logo {
   color: var(--header-title-text-color);
   font-size: var(--header-text-size);
   line-height: 82.5%;
